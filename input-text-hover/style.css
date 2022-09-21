@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+}
+.wrapper input{
+    height: 40px;
+    width: 18%;
+}
+.wrapper input .icon{
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translate(-50%,-50%);
+}

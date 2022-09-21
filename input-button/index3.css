@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.wrapper-text{
+    position: relative;
+}
+.input-field{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.input-field::before{
+    color: blue;
+
+}
+
+.text-field{
+    position: absolute;
+    left: 0;
+    top: -2px;
+    pointer-events: none;
+    transition: 300ms top  ease-in-out;
+}
+.input-field:focus~.text-field,
+.input-field:not(:placeholder-shown).input-field:not(:focus)~.text-field ::before{
+    top: -1rem;
+    color: blue;
+
+}
+.input-field:focus~.text-field,
+.input-field:not(:placeholder-shown).input-field:not(:focus)~.text-field{
+    top: -1rem;
+}
+.eye{
+    position: absolute;
+    top: 5%;
+    right: -5px;
+    cursor: pointer;
+}
+#hide2{
+    display: none;
+    right: 14%;
+}
+.input-field:focus{
+    border-bottom: 1px solid blueviolet;
+}

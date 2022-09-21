@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.text-wrapper{
+    position: relative;
+}
+.text-field{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.text-label{
+    top: .65px;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+}
+.text-field:focus~.text-label,
+.text-field:not(:placeholder-shown).text-field:not(:focus)~.text-label{
+    top: -1rem;
+}

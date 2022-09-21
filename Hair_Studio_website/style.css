@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(image/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.logo {
+    width: 140px;
+    top: 4%;
+    position: absolute;
+    left: 10%;
+}
+
+.banner-text {
+    text-align: center;
+    padding-top: 180px;
+    color: #fff;
+}
+
+.banner-text h1 {
+    font-size: 130px;
+}
+
+.banner-text p {
+    font-size: 20px;
+}
+span{
+    color: red;
+}
+.banner-btn{
+    padding: 15px;
+}
+.banner-btn a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.banner-btn .Find{
+    border: 1px solid black;
+    border-radius: 5px;
+    background: white;
+    padding: 10px;
+    margin: 10px;
+    color: black;
+}
+.banner-btn .Read{
+    border: 1px solid black;
+    border-radius: 5px;
+    background: white;
+    padding: 10px;
+    color: black;
+}
+.banner-btn .Find:hover{
+    background: red;
+}
+.banner-btn .Read:hover{
+    background: red;
+}
+
+
+

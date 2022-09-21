@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+button{
+    background-color: black;
+    border-radius: 5px;
+    color: yellow;
+
+}
+.btn{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 50%;
+    margin-top: 25%;
+}

@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}   
+
+.center{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(166, 243, 243);
+}
+form{
+    background: rgb(225, 179, 227);
+    height: 350px;
+    width: 250px;
+    border-radius: 8px;
+}
+.input{
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.button input{
+    margin: 5px;
+    padding: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.equal{
+    width: 200px;
+    background: red;
+    font-size: 15px;
+}
+.button input:hover{
+    background: rgb(210, 113, 113);
+}
+.clear{
+    background: red;
+}

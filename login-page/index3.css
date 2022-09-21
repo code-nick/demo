@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.wrapper{
+   display: grid;
+   place-items: center;
+   margin-top: 200px;
+}
+.wrapper2{
+    box-shadow:   10px 15px 20px rgba(0, 0, 0, 0.1);
+    height: 300px;
+    width: 390px;
+}
+.login-form{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.email-address input{
+    margin: 10px;
+    margin-left: 40px;
+    width: 80%;
+    padding: 10px;
+}
+.password input{
+    margin: 10px;
+    padding: 10px;
+    margin-left: 40px;
+    width: 80%;
+}
+.Forgot-Password {
+    color: rgb(245, 26, 180); 
+    margin-left: 40px;
+    cursor: pointer;
+}
+.login button{
+    width: 82%;
+    margin: 15px 0px  10px 35px;
+    padding: 10px;
+    color: white;
+    background: rgba(245,26,180);
+    cursor: pointer;
+}
+.Not-member{
+    text-align: center;
+    margin-top: 20px;
+
+}
+    

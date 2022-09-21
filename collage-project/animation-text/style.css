@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    
+}
+.img-1{
+    transform: translate(50%, 20%);
+    transition-delay: 1s;
+    transition-duration: 5s;
+    transition-timing-function: linear;
+    position: fixed;
+}
+.text 
+{
+    font-size: 40px;
+    background-color: black;
+    color: red;
+    transition-delay: 1s;
+    transition-duration: 5s;
+    transition-timing-function: linear;
+}

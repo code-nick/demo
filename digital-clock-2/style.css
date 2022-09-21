@@ -1,0 +1,19 @@
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-color: aqua;
+}
+.digital-clock{
+    padding: 25px;
+    border-radius: 10px;
+    background-color: rgb(243, 119, 17);
+    border: 2px solid black;
+}
+.digital{
+    border: 2px solid black;
+    padding: 15px;
+    background-color: blue;
+    border-radius: 10px;
+}
